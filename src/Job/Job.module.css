@@ -9,7 +9,7 @@
 
 .content{
     height: 100px;
-    min-width: 600px;
+    min-width: 40%;
     border: 1px solid;
     display: flex;
     justify-content: flex-start;

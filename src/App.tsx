@@ -4,6 +4,7 @@ import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
 import {Skills} from "./Skills/Skills";
 import {Job} from "./Job/Job";
+import {Projects} from "./Projects/Projects";
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <Job />
+            <Projects/>
+            <Job/>
         </div>
     );
 }
