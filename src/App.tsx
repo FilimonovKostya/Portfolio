@@ -15,5 +15,4 @@ function App() {
 }
 
 
-// 1: 28 : 10 про 3 блок где скиллы
 export default App;
