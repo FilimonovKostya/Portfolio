@@ -2,10 +2,10 @@ import React from "react";
 import style from "../Projects.module.css";
 
 type ProjectPropsType = {
-    backgroundImg:{}
+    backgroundImg: {}
 }
 
-export const Project = (props:ProjectPropsType) => {
+export const Project = (props: ProjectPropsType) => {
     return <div className={style.containerProject}>
         <div className={style.ownProjects}>
             <div style={props.backgroundImg} className={style.backgroundImg}>

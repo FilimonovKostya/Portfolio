@@ -10,7 +10,6 @@
     width: 80%;
     border: 1px solid red;
     height: 100%;
-
 }
 .projectHeader{
     color: #9999ff;
@@ -31,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .ownProjects{
