@@ -1,6 +1,11 @@
+.container{
+    background: #9999ff;
+    width: 100%;
+}
+
 .header{
     height: 80px;
-    background: #9999ff;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
