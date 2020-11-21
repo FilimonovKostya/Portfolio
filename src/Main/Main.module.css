@@ -1,6 +1,15 @@
 .mainBlock {
     height: 100vh;
     background: #ccd9ef;
+    display: flex;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .greeting {
