@@ -1,18 +1,18 @@
 .wrapper{
+    background: #baf8a7;
     height: 30vh;
-    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 200px;
+    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.content{
-    height: 100px;
-    width: 40%;
-    border: 1px solid;
-    display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
 }
