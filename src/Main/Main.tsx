@@ -2,18 +2,14 @@ import React from "react";
 import style from './Main.module.css'
 
 export const Main = () => {
-    return <div className={style.mainBlock}>
-
-        <div className={style.block}>
-            <div className={style.greeting}>
-                <span> Hi There </span>
-                <h1> I am Filimonov Kostya </h1>
-                <p>React developer</p>
+    return <div className={style.wrapper}>
+        <div className={style.container}>
+            <div className={style.aboutMe}>
+                <p>Hi there</p>
+                <h1>I am Filimonov Kostya</h1>
+                <p>React Developer</p>
             </div>
-            <div className={style.photo}>
-
-            </div>
-
+            <div className={style.avatar}><img src="" alt=""/></div>
         </div>
     </div>
 }

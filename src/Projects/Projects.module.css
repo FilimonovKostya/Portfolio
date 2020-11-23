@@ -1,60 +1,11 @@
-.blockProjects{
-    width: 100%;
+.wrapper{
     height: 100vh;
-    background: #efd29d;
+    background: blanchedalmond;
     display: flex;
     justify-content: center;
 }
 
-.aboutProjects{
+.container{
+    border: 1px solid;
     width: 80%;
-    border: 1px solid red;
-    height: 100%;
-}
-.projectHeader{
-    color: #9999ff;
-    text-align: center;
-
-}
-
-.containerProject{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-.backgroundImg{
-    min-height: 300px;
-    min-width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.ownProjects{
-    border: 1px solid red;
-
-}
-
-.buttonWatch{
-    position: relative;
-    width: 120px;
-    padding: 10px;
-    cursor: pointer;
-    outline: none;
-    border: 1px solid cornflowerblue;
-    border-radius: 10px;
-    font-size: 20px;
-    color: #9999ff;
-    transition: all ease-in 0.4s;
-}
-.buttonWatch:hover {
-    background: #d6f1ff;
-}
-
-.buttonWatch:active{
-    top: 2px;
-    bottom: 2px;
 }

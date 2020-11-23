@@ -12,16 +12,12 @@ export const Projects = () => {
         backgroundPosition: 'center'
     }
 
-    return <div className={style.blockProjects}>
-        <div className={style.aboutProjects}>
-
-            <div className={style.projectHeader}>
-                <h3>My Projects</h3>
+    return <div className={style.wrapper}>
+        <div className={style.container}>
+            <div><h3>My projects</h3></div>
+            <div className={style.projectsBlock}>
+                <Project backgroundImg={backgroundImg}/>
             </div>
-
-            <Project backgroundImg={backgroundImg}/>
-            <Project backgroundImg={backgroundImg}/>
-
         </div>
     </div>
 }
