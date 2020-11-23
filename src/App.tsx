@@ -9,11 +9,13 @@ import {Projects} from "./Projects/Projects";
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Job/>
+
+                <Header/>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Job/>
+
         </div>
     );
 }
