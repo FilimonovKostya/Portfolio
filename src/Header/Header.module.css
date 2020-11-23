@@ -1,9 +1,11 @@
 .container{
     background: #9999ff;
-    padding: 0 calc(50% - 590px);
+    display: flex;
+    justify-content: center;
 }
 
 .header{
+    width: 80%;
     height: 80px;
     display: flex;
     justify-content: flex-end;

@@ -14,8 +14,9 @@ export const Projects = () => {
 
     return <div className={style.wrapper}>
         <div className={style.container}>
-            <div><h3>My projects</h3></div>
+            <h3 className={style.titleBlock}>My Projects</h3>
             <div className={style.projectsBlock}>
+                <Project backgroundImg={backgroundImg}/>
                 <Project backgroundImg={backgroundImg}/>
             </div>
         </div>

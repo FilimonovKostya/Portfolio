@@ -1,9 +1,38 @@
-.projectBlock{
 
+.projectBlock{
+    width: 400px;
+    height: 500px;
+    border: 1px solid green;
 }
 
 .bgImage{
+    width: 100%;
+    height: 80%;
+    color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.watchBtn{
+    border: 1px solid gainsboro;
+    padding: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #dffffc;
+    position: relative;
+    transition: all  ease-in 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchBtn:hover{
+    height: 60px;
+    width: 110px;
+    background: #9df5fa;
 }
 
 .projectFooter{
