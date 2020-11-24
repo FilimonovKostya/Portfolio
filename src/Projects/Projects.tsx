@@ -13,12 +13,13 @@ export const Projects = () => {
     }
 
     return <div className={style.wrapper}>
+        <h2>My projects</h2>
         <div className={style.container}>
-            <h3 className={style.titleBlock}>My Projects</h3>
-            <div className={style.projectsBlock}>
-                <Project backgroundImg={backgroundImg}/>
-                <Project backgroundImg={backgroundImg}/>
-            </div>
+
+            <Project backgroundImg={backgroundImg}/>
+            <Project backgroundImg={backgroundImg}/>
+            <Project backgroundImg={backgroundImg}/>
+
         </div>
     </div>
 }

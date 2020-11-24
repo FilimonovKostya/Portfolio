@@ -10,7 +10,7 @@ type SkillPropsType = {
 
 export const Skill = (props: SkillPropsType) => {
     return <div className={style.skill}>
-        <div><img className={style.skillLogo} src={props.skillLogo} alt="JavaScript"/><p>{props.title}</p></div>
+        <div><img className={style.skillLogo} src={props.skillLogo} alt={props.title}/><p>{props.title}</p></div>
         <div className={style.descriptionSkills}> {props.description} </div>
     </div>
 }

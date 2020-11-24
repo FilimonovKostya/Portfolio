@@ -22,8 +22,7 @@ const Contact = () => {
             <textarea required/>
             <label>Message</label>
         </div>
-
-        <div className={style.submitBtn}>Send Message</div>
+        <div className={style.btn}> <div className={style.submitBtn}>Send Message</div> </div>
     </div>
 }
 

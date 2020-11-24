@@ -1,21 +1,31 @@
 import React from "react";
 import style from './Skils.module.css'
 import {Skill} from "./Skil/Skill";
-import tsLogo from '../assets/img/tsLogo.svg'
-import reactLogo from '../assets/img/reactLogo.svg'
-import reduxLogo from '../assets/img/redux-seeklogo.com.svg'
+import ts from '../assets/img/tsLogo.svg'
+import react from '../assets/img/reactLogo.svg'
+import redux from '../assets/img/redux-seeklogo.com.svg'
+import js from '../assets/img/jsLogo.svg'
+import html from '../assets/img/htmlLogo.svg'
+import css from '../assets/img/cssLogo.svg'
+import git from '../assets/img/gitLogo.svg'
 
 
 export const Skills = () => {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque deserunt ea harum labore laborum magnam maiores, natus ratione, recusandae'
 
     return <div className={style.wrapper}>
+        <h2 >My skills</h2>
         <div className={style.container}>
-            <div><h3>My skills</h3></div>
+
             <div className={style.skillsBlock}>
-                <Skill title={'TypeScript'} description={description} skillLogo={tsLogo}/>
-                <Skill title={'React'} description={description} skillLogo={reactLogo}/>
-                <Skill title={'Redux'} description={description} skillLogo={reduxLogo}/>
+                <Skill title={'TypeScript'} description={description} skillLogo={ts}/>
+                <Skill title={'React'} description={description} skillLogo={react}/>
+                <Skill title={'Redux'} description={description} skillLogo={redux}/>
+                <Skill title={'JavaScript'} description={description} skillLogo={js}/>
+                <Skill title={'Html'} description={description} skillLogo={html}/>
+                <Skill title={'Css'} description={description} skillLogo={css}/>
+                <Skill title={'Git'} description={description} skillLogo={git}/>
+
             </div>
         </div>
     </div>

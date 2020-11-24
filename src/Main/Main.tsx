@@ -1,5 +1,6 @@
 import React from "react";
 import style from './Main.module.css'
+import photo from '../assets/img/myPhoto.jpg'
 
 export const Main = () => {
     return <div className={style.wrapper}>
@@ -9,7 +10,7 @@ export const Main = () => {
                 <h1>I am Filimonov Kostya</h1>
                 <p>React Developer</p>
             </div>
-            <div className={style.avatar}><img src="" alt=""/></div>
+            <div ><img className={style.avatar} src={photo} alt="Profile Photo"/></div>
         </div>
     </div>
 }

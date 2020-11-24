@@ -1,26 +1,30 @@
 .wrapper{
     background: #b6b6db;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .container{
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutMe{
     width: 400px;
     height: 200px;
-    background: orange;
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 10px;
 }
 
 .avatar{
-    width: 300px;
+    width: 350px;
     height: 500px;
-    background: orange;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -6,8 +6,8 @@ type ProjectPropsType = {
 }
 
 export const Project = (props: ProjectPropsType) => {
-    return<div className={style.projectBlock}>
-        <div className={style.bgImage} style={props.backgroundImg}>   <div className={style.watchBtn}> Watch </div>  </div>
+    return <div className={style.projectBlock}>
+        <div className={style.bgImage} style={props.backgroundImg}><a href="#" className={style.watchBtn}> Watch </a></div>
         <div className={style.projectFooter}>
             <h4>Name Project</h4>
             <p>Description</p>

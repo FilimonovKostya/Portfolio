@@ -8,8 +8,8 @@
 }
 
 .container{
-    width: 600px;
-    height: 200px;
+    padding: 10px 0;
+    width: 80%;
     border: 1px solid;
     display: flex;
     justify-content: center;
