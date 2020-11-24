@@ -17,7 +17,7 @@ function App() {
             <Projects/>
             <Job/>
             <Contact/>
-            <Copyright/>
+            {/*<Copyright/>*/}
         </div>
     );
 }
