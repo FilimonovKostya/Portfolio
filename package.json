@@ -1,5 +1,5 @@
+
 {
-  "homepage": "https://FilimonovKostya.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "https://FilimonovKostya.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
