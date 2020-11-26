@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3a977576.chunk.css",
-    "main.js": "/Portfolio/static/js/main.fe73b02f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.fe73b02f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e08d5dc2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a6718443.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a6718443.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.a2d5f2e9.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a2d5f2e9.js.map",
     "static/js/2.5af0d017.chunk.js": "/Portfolio/static/js/2.5af0d017.chunk.js",
@@ -10,22 +10,23 @@
     "static/js/3.264fbcf7.chunk.js": "/Portfolio/static/js/3.264fbcf7.chunk.js",
     "static/js/3.264fbcf7.chunk.js.map": "/Portfolio/static/js/3.264fbcf7.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.3a977576.chunk.css.map": "/Portfolio/static/css/main.3a977576.chunk.css.map",
+    "static/css/main.e08d5dc2.chunk.css.map": "/Portfolio/static/css/main.e08d5dc2.chunk.css.map",
     "static/js/2.5af0d017.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5af0d017.chunk.js.LICENSE.txt",
     "static/media/background.ea52e7ca.jpeg": "/Portfolio/static/media/background.ea52e7ca.jpeg",
-    "static/media/cssLogo.d4c86ccd.svg": "/Portfolio/static/media/cssLogo.d4c86ccd.svg",
+    "static/media/cssLogo.212d777a.svg": "/Portfolio/static/media/cssLogo.212d777a.svg",
     "static/media/gitLogo.c60b7e5a.svg": "/Portfolio/static/media/gitLogo.c60b7e5a.svg",
-    "static/media/htmlLogo.821ba738.svg": "/Portfolio/static/media/htmlLogo.821ba738.svg",
+    "static/media/htmlLogo.02c11ebc.svg": "/Portfolio/static/media/htmlLogo.02c11ebc.svg",
     "static/media/jsLogo.ba40d6a9.svg": "/Portfolio/static/media/jsLogo.ba40d6a9.svg",
+    "static/media/muiLogo.fd510ed8.svg": "/Portfolio/static/media/muiLogo.fd510ed8.svg",
     "static/media/myPhoto.2aca2de7.jpg": "/Portfolio/static/media/myPhoto.2aca2de7.jpg",
-    "static/media/reactLogo.add74742.svg": "/Portfolio/static/media/reactLogo.add74742.svg",
+    "static/media/reactLogo.4704dc7c.svg": "/Portfolio/static/media/reactLogo.4704dc7c.svg",
     "static/media/redux-seeklogo.com.a9567540.svg": "/Portfolio/static/media/redux-seeklogo.com.a9567540.svg",
     "static/media/tsLogo.a6305a73.svg": "/Portfolio/static/media/tsLogo.a6305a73.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a2d5f2e9.js",
     "static/js/2.5af0d017.chunk.js",
-    "static/css/main.3a977576.chunk.css",
-    "static/js/main.fe73b02f.chunk.js"
+    "static/css/main.e08d5dc2.chunk.css",
+    "static/js/main.a6718443.chunk.js"
   ]
 }
