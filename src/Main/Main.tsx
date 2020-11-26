@@ -1,9 +1,9 @@
 import React from "react";
-import style from './Main.module.css'
+import style from './AboutMe.module.css'
 import photo from '../assets/img/myPhoto.jpg'
 
-export const Main = () => {
-    return <div className={style.wrapper}>
+export const AboutMe = () => {
+    return <section className={style.wrapper}>
         <div className={style.container}>
             <div className={style.aboutMe}>
                 <p>Hi there</p>
@@ -12,5 +12,5 @@ export const Main = () => {
             </div>
           <div>  <img className={style.avatar} src={photo} alt="Profile Photo"/> </div>
         </div>
-    </div>
+    </section>
 }

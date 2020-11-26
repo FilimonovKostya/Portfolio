@@ -3,18 +3,18 @@ import style from './Copyright.module.css'
 
 
 const Copyright = () => {
-   return <div className={style.wrapper}>
+   return <footer className={style.wrapper}>
        <div className={style.container}>
          <h6>Filimonov Kostya</h6>
           <div className={style.footer}>
-            <div className={style.block} />
-            <div className={style.block} />
-            <div className={style.block} />
-            <div className={style.block} />
+            <div className={style.footerImgs} />
+            <div className={style.footerImgs} />
+            <div className={style.footerImgs} />
+            <div className={style.footerImgs} />
           </div>
-          <div><p>@ 2020 Все права защищены</p></div>
+          <p>@ 2020 Все права защищены</p>
        </div>
-   </div>
+   </footer>
 
 };
 

@@ -12,7 +12,7 @@ export const Projects = () => {
         backgroundPosition: 'center'
     }
 
-    return <div className={style.wrapper}>
+    return <section className={style.wrapper}>
         <h2>My projects</h2>
         <div className={style.container}>
 
@@ -21,5 +21,5 @@ export const Projects = () => {
             <Project backgroundImg={backgroundImg}/>
 
         </div>
-    </div>
+    </section>
 }

@@ -8,15 +8,15 @@ import js from '../assets/img/jsLogo.svg'
 import html from '../assets/img/htmlLogo.svg'
 import css from '../assets/img/cssLogo.svg'
 import git from '../assets/img/gitLogo.svg'
+import mui from '../assets/img/muiLogo.svg'
 
 
 export const Skills = () => {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque deserunt ea harum labore laborum magnam maiores, natus ratione, recusandae'
 
-    return <div className={style.wrapper}>
+    return <section className={style.wrapper}>
         <h2 >My skills</h2>
         <div className={style.container}>
-
             <div className={style.skillsBlock}>
                 <Skill title={'TypeScript'} description={description} skillLogo={ts}/>
                 <Skill title={'React'} description={description} skillLogo={react}/>
@@ -25,9 +25,9 @@ export const Skills = () => {
                 <Skill title={'Html'} description={description} skillLogo={html}/>
                 <Skill title={'Css'} description={description} skillLogo={css}/>
                 <Skill title={'Git'} description={description} skillLogo={git}/>
-
-            </div>
+                <Skill title={'Material UI'} description={description} skillLogo={mui}/>
+                </div>
         </div>
-    </div>
+    </section>
 
 }
