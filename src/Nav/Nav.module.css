@@ -1,5 +1,16 @@
 .nav{
     width: 300px;
+}
+
+.navItems{
     display: flex;
     justify-content: space-between;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    opacity: .5;
 }
