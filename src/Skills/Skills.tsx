@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Skils.module.css'
-import {Skill, Test} from "./Skil/Skill";
+import {Skill} from "./Skil/Skill";
 import ts from '../assets/img/tsLogo.svg'
 import react from '../assets/img/reactLogo.svg'
 import redux from '../assets/img/redux-seeklogo.com.svg'
