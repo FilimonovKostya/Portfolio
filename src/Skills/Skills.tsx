@@ -15,7 +15,31 @@ export const Skills = () => {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque deserunt ea harum labore laborum magnam maiores, natus ratione, recusandae'
 
     return <section className={style.wrapper}>
-        <h1 className={style.title}><span> My</span> skills</h1>
+        <h1 className={style.title}> About <span> Me </span></h1>
+
+
+        <div className={style.personalInfo}>
+            <h3> Personal Information </h3>
+            <div className={style.information}>
+                <ul className={style.informationList}>
+                    <li>First Name: <span>Konstantin </span></li>
+                    <li>Last Name: <span>Filimonov</span></li>
+                    <li>Age: <span>24</span></li>
+                    <li>Nationality: <span>Belarus</span></li>
+
+                </ul>
+
+                <ul className={style.informationList}>
+                    <li>Address: <span>Mogilev</span></li>
+                    <li>Phone: <span>+375-25-905-14-24</span></li>
+                    <li>Email: <span> konstantinfilimonou@gmail.com</span></li>
+                    <li>Language: <span>English(A2)</span></li>
+
+                </ul>
+            </div>
+        </div>
+
+
         <div className={style.container}>
             <div className={style.skillsBlock}>
                 <Skill title={'TypeScript'} description={description} skillLogo={ts}/>
