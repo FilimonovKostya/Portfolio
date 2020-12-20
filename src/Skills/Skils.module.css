@@ -72,6 +72,12 @@
     margin-top:30px;
 }
 
+.container h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .skillsBlock {
     display: flex;
     justify-content: space-around;

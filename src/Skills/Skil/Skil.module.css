@@ -1,25 +1,23 @@
-.skillBlock{
-    max-width: 300px;
-    border: 1px solid red;
-    padding: 10px;
-    margin: 10px 0;
+
+.wrapper {
+
 }
 
 
-.skillLogo{
+.skillLogo {
     width: 50px;
     height: 50px;
 }
 
 
-
-.c100{
+.c100 {
     position: relative;
     font-size: 130px;
     width: 1em;
     height: 1em;
     border-radius: 50%;
     background-color: #1f1f1f;
+    margin: 20px;
 }
 
 .c100 > img {
@@ -30,14 +28,14 @@
     color: #cccccc;
 }
 
-.c100 .slice{
+.c100 .slice {
     position: absolute;
     width: 1em;
     height: 1em;
     clip: rect(0em, 1em, 1em, 0.5em);
 }
 
-.bar{
+.bar {
     border: 0.08em solid #ffb400;
     position: absolute;
     width: 0.84em;
@@ -60,7 +58,7 @@
 
 }
 
-.span{
+.span {
     margin-top: 15px;
     display: block;
     font-family: 'OpenSans', sans-serif;

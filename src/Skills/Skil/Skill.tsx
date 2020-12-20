@@ -10,7 +10,7 @@ type SkillPropsType = {
 
 
 export const Skill = React.memo((props: SkillPropsType) => {
-    return <div>
+    return <div className={style.wrapper}>
         <div className={style.c100}>
             <img src={props.skillLogo} className={style.skillLogo} alt={props.title}/>
             <div className={style.slice}>

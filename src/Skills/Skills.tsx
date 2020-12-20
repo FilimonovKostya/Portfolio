@@ -15,7 +15,7 @@ export const Skills = () => {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque deserunt ea harum labore laborum magnam maiores, natus ratione, recusandae'
 
     return <section className={style.wrapper}>
-        <h1 className={style.title}> About <span> Me </span></h1>
+        <h2 className={style.title}> About <span> Me </span></h2>
 
 
         <div className={style.personalInfo}>
@@ -41,6 +41,7 @@ export const Skills = () => {
 
 
         <div className={style.container}>
+            <h3>My skills </h3>
             <div className={style.skillsBlock}>
                 <Skill title={'TypeScript'} description={description} skillLogo={ts}/>
                 <Skill title={'React'} description={description} skillLogo={react}/>
