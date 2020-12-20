@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    z-index: 3;
 }
 
 .container{

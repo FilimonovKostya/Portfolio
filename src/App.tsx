@@ -11,7 +11,7 @@ import Copyright from "./Copyright/Copyright";
 function App() {
     return (
         <div className="App">
-            <Header/>
+            {/*<Header/>*/}
             <AboutMe/>
             <Skills/>
             <Projects/>
