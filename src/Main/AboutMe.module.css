@@ -1,14 +1,14 @@
-.wrapper{
-    position: relative ;
-    background: rgb(17,17,17);
+.wrapper {
+    position: relative;
+    background: rgb(17, 17, 17);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
 
-.colorBlock{
-    background:#ffb400;
+.colorBlock {
+    background: #ffb400;
     position: absolute;
     height: 200%;
     width: 100%;
@@ -17,31 +17,31 @@
     top: -50%;
 }
 
-.container{
-    width: 80%;
+.container {
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.aboutMe{
+.aboutMe {
     font-family: 'OpenSans', sans-serif;
     max-width: 550px;
-    margin: 10px 0;
     padding: 10px;
     font-weight: 600;
-
+    z-index: 2;
+    margin: 0 auto;
 }
 
-.aboutMeText{
+.aboutMeText {
     color: #eee;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.avatar{
+.avatar {
     background-image: url('../../src/assets/img/finalPhoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,23 +51,23 @@
     border-radius: 15px;
     left: 30px;
     top: 30px;
-    box-shadow: 0 0 7px rgba(0,0,0,.9);
-    width: 100%;
-    max-width: 645px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 
-.heading{
+.heading {
     font-size: 45px;
     line-height: 45px;
     font-weight: 600;
     margin: 18px 0 10px;
 }
 
-.surname{
-    color:#ffb400
+.surname {
+    color: #ffb400
 }
 
-.aboutMeFooterText{
+.aboutMeFooterText {
     font-family: 'OpenSans', sans-serif;
     margin: 10px 0 23px;
     font-size: 16px;
@@ -75,9 +75,9 @@
     font-weight: 500;
 }
 
-.btn{
+.btn {
     font-family: Poppins, sans-serif;
-    box-shadow: none ;
+    box-shadow: none;
     border-radius: 26px;
     font-weight: 500;
     height: 46px;
@@ -86,9 +86,42 @@
     text-transform: uppercase;
     color: #fff;
     padding: 0 40px;
-    outline: none ;
+    outline: none;
     overflow: hidden;
     display: inline-block;
     position: relative;
     background-color: #ffb400;
+}
+
+@media screen and (max-width: 992px) {
+
+    .wrapper{
+        text-align: center;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .colorBlock {
+        display: none;
+    }
+
+    .avatar {
+        background-image: url('../../src/assets/img/finalPhoto.jpg');
+        border-radius: 50%;
+        width: 270px;
+        height: 270px;
+        border: 4px solid #252525;
+        display: flex;
+        max-width: 100%;
+        flex: none;
+    }
+
+    .aboutMeText{
+        display: none;
+    }
+
+
 }
