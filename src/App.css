@@ -25,6 +25,7 @@ body {
     color: #FFFFFF;
     font-family: Poppins, sans-serif;
     font-weight: 500;
+
 }
 
 @font-face {
@@ -396,3 +397,5 @@ template {
 [hidden] {
     display: none;
 }
+
+

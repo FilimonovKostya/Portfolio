@@ -10,3 +10,52 @@
     width: 50px;
     height: 50px;
 }
+
+
+
+.c100{
+    position: relative;
+    font-size: 130px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+}
+
+.c100 > img {
+    position: absolute;
+    z-index: 1;
+    left: 32%;
+    top: 32%;
+    color: #cccccc;
+}
+
+.c100 .slice{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0em, 1em, 1em, 0.5em);
+}
+
+.bar{
+    border: 0.08em solid #ffb400;
+    position: absolute;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+
+.c100::after {
+    position: absolute;
+    top: 0.08em;
+    left: 0.08em;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    background-color: #111;
+    width: 0.84em;
+    height: 0.84em;
+
+}

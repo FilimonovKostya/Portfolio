@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Skils.module.css'
-import {Skill} from "./Skil/Skill";
+import {Skill, Test} from "./Skil/Skill";
 import ts from '../assets/img/tsLogo.svg'
 import react from '../assets/img/reactLogo.svg'
 import redux from '../assets/img/redux-seeklogo.com.svg'
@@ -15,7 +15,7 @@ export const Skills = () => {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque deserunt ea harum labore laborum magnam maiores, natus ratione, recusandae'
 
     return <section className={style.wrapper}>
-        <h2 >My skills</h2>
+        <h1 className={style.title}><span> My</span> skills</h1>
         <div className={style.container}>
             <div className={style.skillsBlock}>
                 <Skill title={'TypeScript'} description={description} skillLogo={ts}/>
@@ -26,7 +26,7 @@ export const Skills = () => {
                 <Skill title={'Css'} description={description} skillLogo={css}/>
                 <Skill title={'Git'} description={description} skillLogo={git}/>
                 <Skill title={'Material UI'} description={description} skillLogo={mui}/>
-                </div>
+            </div>
         </div>
     </section>
 

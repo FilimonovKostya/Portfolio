@@ -8,10 +8,29 @@ type SkillPropsType = {
     title: string
 }
 
-export const Skill = React.memo( (props: SkillPropsType) => {
-    return <div className={style.skillBlock}>
-        <img className={style.skillLogo} src={props.skillLogo} alt={props.title}/>
-        <h3 >{props.title}</h3>
-        <p> {props.description} </p>
+// export const Skill = React.memo( (props: SkillPropsType) => {
+//     return <div className={style.skillBlock}>
+//         <img className={style.skillLogo} src={props.skillLogo}  alt={props.title}/>
+//         <h3 >{props.title}</h3>
+//         <p> {props.description} </p>
+//     </div>
+// })
+
+//
+// export const Skill = React.memo((props: SkillPropsType) => {
+//     return <div className={style.skillBlock}>
+//         <img className={style.skillLogo} src={props.skillLogo} alt={props.title}/>
+//         <h3>{props.title}</h3>
+//     </div>
+// })
+
+
+export const Skill = React.memo((props: SkillPropsType) => {
+    return <div className={style.c100}>
+        <img src={props.skillLogo} className={style.skillLogo} alt={props.title}/>
+        <div className={style.slice}>
+            <div className={style.bar}/>
+        </div>
     </div>
+
 })
