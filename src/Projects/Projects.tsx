@@ -13,13 +13,24 @@ export const Projects = () => {
     }
 
     return <section className={style.wrapper}>
-        <h2>My projects</h2>
+        <h2><span> My </span> projects </h2>
         <div className={style.container}>
 
             <Project backgroundImg={backgroundImg}/>
             <Project backgroundImg={backgroundImg}/>
             <Project backgroundImg={backgroundImg}/>
+            <Test/>
+
 
         </div>
     </section>
+}
+
+const Test = () => {
+    return <div className={style.box}>
+        <div className={style.imgBx}>
+            <img src={background} alt=""/>
+        </div>
+    </div>
+
 }

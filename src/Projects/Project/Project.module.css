@@ -1,11 +1,11 @@
-.projectBlock{
+.projectBlock {
     width: 400px;
     height: 500px;
     margin: 10px 0;
     border: 1px solid;
 }
 
-.bgImage{
+.bgImage {
     width: 100%;
     height: 80%;
     display: flex;
@@ -14,7 +14,7 @@
 
 }
 
-.watchBtn{
+.watchBtn {
     border: 1px solid gainsboro;
     padding: 15px;
     height: 50px;
@@ -23,24 +23,59 @@
     cursor: pointer;
     background: #dffffc;
     position: relative;
-    transition: all  ease-in 0.2s;
+    transition: all ease-in 0.2s;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
 }
 
-.watchBtn:hover{
+.watchBtn:hover {
     height: 60px;
     width: 110px;
     background: #9df5fa;
 }
 
-.watchBtn:active{
-    top:2px;
+.watchBtn:active {
+    top: 2px;
     left: 2px;
 }
 
-.projectFooter{
+.projectFooter {
     padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
