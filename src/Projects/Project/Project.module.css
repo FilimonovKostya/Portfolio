@@ -114,8 +114,34 @@
     background: linear-gradient(45deg, rgba(255, 5, 172, 1) 0%, rgba(255, 5, 172, 1) 18%, rgba(0, 255, 255, 1) 100%)
 }
 
+.box .content span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-align: center;
+}
 
+.box:hover .content {
+    opacity: 0;
+}
 
+.box:hover .imgBx img {
+    height: 100%;
+}
+
+.box .content span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+}
 
 
 

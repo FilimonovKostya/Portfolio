@@ -16,9 +16,10 @@ export const Projects = () => {
         <h2><span> My </span> projects </h2>
         <div className={style.container}>
 
-            <Project backgroundImg={backgroundImg}/>
-            <Project backgroundImg={backgroundImg}/>
-            <Project backgroundImg={backgroundImg}/>
+            <Project backgroundImg={backgroundImg} title={'TodoList'}/>
+            <Project backgroundImg={backgroundImg} title={'Social network'}/>
+            <Project backgroundImg={backgroundImg} title={'Counter'}/>
+            <Project backgroundImg={backgroundImg} title={'Quiz'}/>
         </div>
     </section>
 }
