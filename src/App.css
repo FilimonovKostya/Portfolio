@@ -25,6 +25,7 @@ body {
     color: #FFFFFF;
     font-family: Poppins, sans-serif;
     font-weight: 500;
+    background-color: rgb(17, 17, 17);
 
 }
 
@@ -135,7 +136,7 @@ a {
 abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
+    /* 2 */
 }
 
 /**

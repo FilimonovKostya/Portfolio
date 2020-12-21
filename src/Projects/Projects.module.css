@@ -1,7 +1,6 @@
 .wrapper {
     min-height: 100vh;
    background-blend-mode: screen;
-    background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
