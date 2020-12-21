@@ -19,18 +19,7 @@ export const Projects = () => {
             <Project backgroundImg={backgroundImg}/>
             <Project backgroundImg={backgroundImg}/>
             <Project backgroundImg={backgroundImg}/>
-            <Test/>
-
-
         </div>
     </section>
 }
 
-const Test = () => {
-    return <div className={style.box}>
-        <div className={style.imgBx}>
-            <img src={background} alt=""/>
-        </div>
-    </div>
-
-}
