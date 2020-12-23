@@ -64,7 +64,6 @@
 /*}*/
 
 
-
 /*.inputContainer {*/
 /*    max-width: 650px;*/
 /*    margin: 20px auto;*/
@@ -112,15 +111,7 @@
 /*}*/
 
 
-
-
-
-
-
-
-
-
-.contactBlock{
+.contactBlock {
     max-width: 1200px;
     margin: 20px auto;
     border: 1px solid yellow;
@@ -138,16 +129,16 @@
 }
 
 .contactBlock h2 span {
-    color:#ffb400;
+    color: #ffb400;
 }
 
-.contactInfo{
+.contactInfo {
     display: flex;
     justify-content: space-between;
 }
 
 
-.socialMedia{
+.socialMedia {
     max-width: 400px;
 }
 
@@ -163,26 +154,26 @@
     font-size: 15px;
 }
 
-.emailPhone{
-}
+.emailPhone,
+.email,
+.phone {
 
-.email{
     display: flex;
     align-items: center;
 }
 
-
-
-
-.faEnvelope{
-    color:#ffb400;
-    font-size: 23px;
+.faEnvelope {
+    color: #ffb400;
+    font-size: 33px;
     margin-right: 15px;
 }
 
-.linksMedia{}
+.linksMedia {
+}
 
 
-.contactsData{}
+.contactsData {
+}
 
-.nameEmailSubject{}
+.nameEmailSubject {
+}

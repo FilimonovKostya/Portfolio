@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Contact.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelopeOpen, faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
     // return <section className={style.inputContainer}>
@@ -27,8 +27,8 @@ const Contact = () => {
     //     <div className={style.submitBtn}>Send Message</div>
     // </section>
 
-    const emailIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faEnvelope} />
-    const phoneIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faPhone} />
+    const emailIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare} />
+    const phoneIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faPhoneSquareAlt} />
 
 
     return <section className={style.contactBlock}>
@@ -40,12 +40,10 @@ const Contact = () => {
                 <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your
                     visions.</p>
                 <div className={style.emailPhone}>
-                     <p className={style.email}>  {emailIcon} Mail Me</p>
-                    <p>@example.com</p>
+                     <p className={style.email}>  {emailIcon} Mail Me : @example.com</p>
                 </div>
                 <div className={style.emailPhone}>
-                    <p className={style.phone}> {phoneIcon} Call Me</p>
-                    <p>+375 25 905 14 24</p>
+                    <p className={style.phone}> {phoneIcon} Call Me : +375 25 905 14 24</p>
                 </div>
                 <div className={style.linksMedia}>
                     <a href="#">icons</a>
