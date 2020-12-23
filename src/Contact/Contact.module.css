@@ -153,9 +153,32 @@
 
 .socialMedia h4 {
     margin: 0;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
 }
 
-.emailPhone{}
+.socialMedia p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 15px;
+}
+
+.emailPhone{
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.faEnvelope{
+    color:#ffb400;
+    font-size: 23px;
+    margin-right: 15px;
+}
 
 .linksMedia{}
 
