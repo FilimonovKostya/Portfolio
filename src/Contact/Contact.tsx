@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Contact.module.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedin, faTelegram, faVk} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
     // return <section className={style.inputContainer}>
@@ -45,7 +45,28 @@ const Contact = () => {
                     <p className={style.phone}><FontAwesomeIcon className={style.faEnvelope} icon={faPhoneSquareAlt}/> Call Me : +375 25 905 14 24</p>
                 </div>
                 <div className={style.linksMedia}>
-                    <a href="#"> <FontAwesomeIcon className={style.fabIcons} icon={faGithub}/></a>
+                    <div className={style.circle}><a href="https://github.com/FilimonovKostya" target={'_blank'}>
+                        <FontAwesomeIcon className={style.fabIcons}
+                                         icon={faGithub}/>
+                    </a>
+                    </div>
+                    <div className={style.circle}><a href="https://t.me/FilimonovKostya" target={'_blank'}>
+                        <FontAwesomeIcon className={style.fabIcons}
+                                         icon={faTelegram}/>
+                    </a>
+                    </div>
+                    <div className={style.circle}><a href="https://vk.com/id97510491" target={'_blank'}>
+                        <FontAwesomeIcon className={style.fabIcons}
+                                         icon={faVk}/>
+                    </a>
+                    </div>
+                    <div className={style.circle}><a
+                        href="https://www.linkedin.com/in/%D0%BA%D0%BE%D1%81%D1%82%D1%8F-%D1%84%D0%B8%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2-7b3378201/"
+                        target={'_blank'}>
+                        <FontAwesomeIcon className={style.fabIcons}
+                                         icon={faLinkedin}/>
+                    </a>
+                    </div>
                 </div>
             </div>
             <div className={style.contactsData}>

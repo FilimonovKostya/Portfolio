@@ -176,28 +176,31 @@
 }
 
 
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2B2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
 
+}
 
+.circle:not(:first-child) {
+   margin-left: 15px;
+}
 
-.fabIcons:hover{
-    color: #ffb400;
+.circle:hover{
+    background: #ffb400;
 }
 
 .linksMedia {
-    position: relative;
+    display: flex;
 }
 
-.linksMedia:before{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    border-radius: 50%;
-    top: 10px;
-    left: 10px;
 
-}
 
 .contactsData {
 }
