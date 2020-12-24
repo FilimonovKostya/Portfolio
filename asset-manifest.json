@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e9b8f372.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ab5fa49c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ab5fa49c.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.6f1d6366.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6f1d6366.js.map",
-    "static/js/2.4e99014b.chunk.js": "/Portfolio/static/js/2.4e99014b.chunk.js",
-    "static/js/2.4e99014b.chunk.js.map": "/Portfolio/static/js/2.4e99014b.chunk.js.map",
-    "static/js/3.e05e6ae5.chunk.js": "/Portfolio/static/js/3.e05e6ae5.chunk.js",
-    "static/js/3.e05e6ae5.chunk.js.map": "/Portfolio/static/js/3.e05e6ae5.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.538d3a59.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b049e7b6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b049e7b6.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.9d007b7f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9d007b7f.js.map",
+    "static/js/2.2a4764b2.chunk.js": "/Portfolio/static/js/2.2a4764b2.chunk.js",
+    "static/js/2.2a4764b2.chunk.js.map": "/Portfolio/static/js/2.2a4764b2.chunk.js.map",
+    "static/js/3.dd3b4a3a.chunk.js": "/Portfolio/static/js/3.dd3b4a3a.chunk.js",
+    "static/js/3.dd3b4a3a.chunk.js.map": "/Portfolio/static/js/3.dd3b4a3a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e9b8f372.chunk.css.map": "/Portfolio/static/css/main.e9b8f372.chunk.css.map",
-    "static/js/2.4e99014b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4e99014b.chunk.js.LICENSE.txt",
+    "static/css/main.538d3a59.chunk.css.map": "/Portfolio/static/css/main.538d3a59.chunk.css.map",
+    "static/js/2.2a4764b2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2a4764b2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Portfolio/static/media/Poppins-Regular.8081832f.ttf",
     "static/media/background.ea52e7ca.jpeg": "/Portfolio/static/media/background.ea52e7ca.jpeg",
     "static/media/cssLogo.212d777a.svg": "/Portfolio/static/media/cssLogo.212d777a.svg",
@@ -25,9 +25,9 @@
     "static/media/tsLogo.a6305a73.svg": "/Portfolio/static/media/tsLogo.a6305a73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f1d6366.js",
-    "static/js/2.4e99014b.chunk.js",
-    "static/css/main.e9b8f372.chunk.css",
-    "static/js/main.ab5fa49c.chunk.js"
+    "static/js/runtime-main.9d007b7f.js",
+    "static/js/2.2a4764b2.chunk.js",
+    "static/css/main.538d3a59.chunk.css",
+    "static/js/main.b049e7b6.chunk.js"
   ]
 }
