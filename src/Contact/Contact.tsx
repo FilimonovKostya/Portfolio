@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Contact.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelopeOpen, faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
     // return <section className={style.inputContainer}>
@@ -27,9 +28,7 @@ const Contact = () => {
     //     <div className={style.submitBtn}>Send Message</div>
     // </section>
 
-    const emailIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare} />
-    const phoneIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faPhoneSquareAlt} />
-
+    const emailIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare}/>
 
     return <section className={style.contactBlock}>
         <h2>Get in <span>Touch</span></h2>
@@ -40,13 +39,13 @@ const Contact = () => {
                 <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your
                     visions.</p>
                 <div className={style.emailPhone}>
-                     <p className={style.email}>  {emailIcon} Mail Me : @example.com</p>
+                    <p className={style.email}><FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare}/>Mail Me : @example.com</p>
                 </div>
                 <div className={style.emailPhone}>
-                    <p className={style.phone}> {phoneIcon} Call Me : +375 25 905 14 24</p>
+                    <p className={style.phone}><FontAwesomeIcon className={style.faEnvelope} icon={faPhoneSquareAlt}/> Call Me : +375 25 905 14 24</p>
                 </div>
                 <div className={style.linksMedia}>
-                    <a href="#">icons</a>
+                    <a href="#"> <FontAwesomeIcon className={style.fabIcons} icon={faGithub}/></a>
                 </div>
             </div>
             <div className={style.contactsData}>

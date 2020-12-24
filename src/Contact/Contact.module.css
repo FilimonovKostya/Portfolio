@@ -152,6 +152,7 @@
 .socialMedia p {
     font-family: 'OpenSans', sans-serif;
     font-size: 15px;
+    line-height: 24px;
 }
 
 .emailPhone,
@@ -168,9 +169,35 @@
     margin-right: 15px;
 }
 
-.linksMedia {
+.fabIcons{
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
 }
 
+
+
+
+
+.fabIcons:hover{
+    color: #ffb400;
+}
+
+.linksMedia {
+    position: relative;
+}
+
+.linksMedia:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+
+}
 
 .contactsData {
 }
