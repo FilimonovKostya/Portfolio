@@ -5,31 +5,6 @@ import {faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-ic
 import {faGithub, faLinkedin, faTelegram, faVk} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
-    // return <section className={style.inputContainer}>
-    //
-    //
-    //     <div className={`${style.styledInput} ${style.wide}`}>
-    //         <input type="text" name={'name'} required/>
-    //         <label>Name</label>
-    //     </div>
-    //
-    //     <div className={style.styledInput}>
-    //         <input type="text" name='phone' required/>
-    //         <label>Phone Number</label>
-    //     </div>
-    //     <div className={style.styledInput}>
-    //         <input type="text" name='email' required/>
-    //         <label>Email</label>
-    //     </div>
-    //     <div className={`${style.styledInput} ${style.wide}`}>
-    //         <textarea required/>
-    //         <label>Message</label>
-    //     </div>
-    //     <div className={style.submitBtn}>Send Message</div>
-    // </section>
-
-    const emailIcon = <FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare}/>
-
     return <section className={style.contactBlock}>
         <h2>Get in <span>Touch</span></h2>
 
@@ -71,13 +46,13 @@ const Contact = () => {
             </div>
             <div className={style.contactsData}>
                 <div className={style.nameEmailSubject}>
-                    <input type="text" name={'name'}/>
-                    <input type="email" name={'email'}/>
-                    <input type="text"/>
+                    <input type="text" name={'name'} placeholder={'Your name'}/>
+                    <input type="email" name={'email'} placeholder={'Your email'}/>
+                    <input type="text" placeholder={'Your subject'}/>
                 </div>
-                <div>
-                    <textarea/>
-                    <button type={"submit"}/>
+                <div className={style.textarea}>
+                    <textarea  placeholder={'Your message'}/>
+                    <button type={"submit"} className={style.btn}> Send Message</button>
                 </div>
             </div>
         </div>
