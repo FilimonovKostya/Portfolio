@@ -1,0 +1,21 @@
+
+.informationList {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+/*.informationList:first-child{*/
+/*    margin-right: 15px;*/
+/*}*/
+
+.informationList li {
+    padding-bottom: 20px;
+
+}
+
+.informationList li span {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+}

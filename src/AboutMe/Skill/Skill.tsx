@@ -3,7 +3,6 @@ import style from './Skil.module.css'
 
 
 type SkillPropsType = {
-    description: string
     skillLogo: string
     title: string
 }

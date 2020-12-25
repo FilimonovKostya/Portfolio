@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import {AboutMe} from "./Main/Main";
-import {Skills} from "./Skills/Skills";
+import {Preview} from "./Preview/Preview";
 import {HireBlock} from "./Job/HireBlock";
 import {Projects} from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import {AboutMe} from "./AboutMe/AboutMe";
 
 function App() {
     return (
         <div className="App">
+            <Preview/>
             <AboutMe/>
-            <Skills/>
             <Projects/>
             <HireBlock/>
             <Contact/>

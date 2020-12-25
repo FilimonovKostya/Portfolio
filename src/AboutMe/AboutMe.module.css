@@ -27,7 +27,7 @@
 
 .personalInfo h3 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 26px;
     padding-bottom: 26px;
     text-transform: uppercase;
 }
@@ -38,22 +38,6 @@
     margin-bottom: 15px;
 }
 
-
-.informationList {
-    font-family: 'OpenSans', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.informationList li {
-    padding-bottom: 20px;
-
-}
-
-.informationList li span {
-    font-family: 'OpenSans', sans-serif;
-    font-weight: 600;
-}
 
 .title {
     font-size: 56px;

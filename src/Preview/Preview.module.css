@@ -27,7 +27,7 @@
 
 .aboutMe {
     font-family: 'OpenSans', sans-serif;
-    max-width: 550px;
+    max-width: 800px;
     padding: 10px;
     font-weight: 600;
     z-index: 2;
@@ -95,11 +95,11 @@
 
 @media screen and (max-width: 992px) {
 
-    .wrapper{
+    .wrapper {
         text-align: center;
     }
 
-    .container{
+    .container {
         flex-direction: column;
         justify-content: center;
     }
@@ -119,7 +119,7 @@
         flex: none;
     }
 
-    .aboutMeText{
+    .aboutMeText {
         display: none;
     }
 
