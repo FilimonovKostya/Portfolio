@@ -14,7 +14,8 @@ const Contact = () => {
                 <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your
                     visions.</p>
                 <div className={style.emailPhone}>
-                    <p className={style.email}><FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare}/>Mail Me : @example.com</p>
+                    <p className={style.email}><FontAwesomeIcon className={style.faEnvelope} icon={faEnvelopeSquare}/>Mail Me : konstantinfilimonou@gmail.com
+                    </p>
                 </div>
                 <div className={style.emailPhone}>
                     <p className={style.phone}><FontAwesomeIcon className={style.faEnvelope} icon={faPhoneSquareAlt}/> Call Me : +375 25 905 14 24</p>
@@ -51,7 +52,7 @@ const Contact = () => {
                     <input type="text" placeholder={'Your subject'}/>
                 </div>
                 <div className={style.textarea}>
-                    <textarea  placeholder={'Your message'}/>
+                    <textarea placeholder={'Your message'}/>
                     <button type={"submit"} className={style.btn}> Send Message</button>
                 </div>
             </div>
