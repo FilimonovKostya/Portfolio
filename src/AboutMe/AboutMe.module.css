@@ -71,8 +71,15 @@
 }
 
 @media screen and (max-width: 958px) {
-    .personalInfo{
+    .personalInfo, .container{
         width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 673px) {
+    .personalInfo, .container{
+        width: 90%;
     }
 
 }
