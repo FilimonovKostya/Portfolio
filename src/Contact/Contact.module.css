@@ -87,6 +87,7 @@
 
 .linksMedia {
     display: flex;
+    margin: 15px 0;
 }
 
 
@@ -182,6 +183,16 @@
     }
     .nameEmailSubject  input{
         padding: 20px 11px;
+    }
+    .nameEmailSubject  input:not(:last-child){
+        margin-right:0;
+    }
+    .linksMedia{
+        justify-content: flex-end;
+    }
+
+    .textarea{
+       text-align: center;
     }
 
 }
