@@ -12,6 +12,7 @@
     font-family: Poppins, sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .wrapper h2 span {
@@ -30,4 +31,13 @@
     width: 100%;
     text-align: center;
 }
+
+
+@media screen and (max-width: 958px) {
+    .container{
+        width: 100%;
+    }
+
+}
+
 
