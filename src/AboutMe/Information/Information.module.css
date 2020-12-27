@@ -6,9 +6,10 @@
 
 }
 
-/*.informationList:first-child{*/
-/*    margin-right: 15px;*/
-/*}*/
+.informationList:first-child{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
 .informationList li {
     padding-bottom: 20px;
@@ -19,3 +20,5 @@
     font-family: 'OpenSans', sans-serif;
     font-weight: 600;
 }
+
+

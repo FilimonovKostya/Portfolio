@@ -9,7 +9,7 @@
 }
 
 .personalInfo {
-    width: 40%;
+    width: 50%;
     position: relative;
 }
 
@@ -36,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 
@@ -69,3 +70,9 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 958px) {
+    .personalInfo{
+        width: 75%;
+    }
+
+}
