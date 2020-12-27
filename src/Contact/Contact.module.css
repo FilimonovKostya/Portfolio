@@ -1,5 +1,5 @@
 .contactBlock {
-    max-width: 1200px;
+    max-width: 80%;
     margin: 20px auto;
 
 }
@@ -22,11 +22,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 
 .socialMedia {
-    max-width: 400px;
+    max-width: 25%;
+    margin-right: 8px;
 }
 
 .socialMedia h4 {
@@ -150,9 +152,9 @@
     letter-spacing: 0.5px;
     box-shadow: none;
     border-radius: 26px;
-    padding: 0px 40px;
+    padding: 0 40px;
     overflow: hidden;
-    border-width: 0px;
+    border-width: 0;
     border-style: initial;
     border-color: initial;
     border-image: initial;
@@ -160,4 +162,26 @@
     cursor: pointer;
     background-color:#ffb400 ;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1312px) {
+    .contactsData{
+        margin: 20px auto;
+    }
+    .socialMedia{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .contactsData{
+        margin: 20px auto;
+    }
+    .nameEmailSubject{
+        flex-wrap: wrap;
+    }
+    .nameEmailSubject  input{
+        padding: 20px 11px;
+    }
+
 }
