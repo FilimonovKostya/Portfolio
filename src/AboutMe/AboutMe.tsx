@@ -1,5 +1,5 @@
 import React from "react";
-import style from './AboutMe.module.css'
+import style from './AboutMe.module.scss'
 import {Skill} from "./Skill/Skill";
 import ts from '../assets/img/tsLogo.svg'
 import react from '../assets/img/reactLogo.svg'

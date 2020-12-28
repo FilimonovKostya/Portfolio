@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../Information/Information.module.css";
+import style from "./Information.module.scss";
 
 export const SecondaryInformation = React.memo(() => {
     return <ul className={style.informationList}>

@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Projects.module.css'
+import style from './Projects.module.scss'
 import background from '../assets/img/background.jpeg'
 import {Project} from "./Project/Project";
 

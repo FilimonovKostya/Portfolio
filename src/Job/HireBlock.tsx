@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./HireBlock.module.css";
+import style from "./HireBlock.module.scss";
 
 export const HireBlock = () => {
   return <section className={style.wrapper}>

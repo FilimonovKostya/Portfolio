@@ -1,0 +1,15 @@
+.emailPhone {
+  display: flex;
+  align-items: center;
+
+  .email {
+    display: flex;
+    align-items: center;
+  }
+
+  .faEnvelope {
+    color: #ffb400;
+    font-size: 33px;
+    margin-right: 15px;
+  }
+}

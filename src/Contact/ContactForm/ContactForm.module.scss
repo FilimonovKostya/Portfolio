@@ -1,0 +1,93 @@
+.contactsData {
+  @media screen and (max-width: 812px) {
+    margin: 20px auto;
+  }
+
+  .nameEmailSubject {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    @media screen and (max-width: 812px) {
+      flex-wrap: wrap;
+    }
+
+
+    input {
+      width: 100%;
+      color: rgb(255, 255, 255);
+      margin-bottom: 30px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(17, 17, 17);
+      border-image: initial;
+      background: rgb(37, 37, 37);
+      padding: 11px 26px;
+      border-radius: 30px;
+      transition: all 0.3s ease 0s;
+      outline: none;
+      @media screen and (max-width: 812px) {
+        padding: 20px 11px;
+      }
+
+      &:not(:last-child) {
+        margin-right: 7px;
+        @media screen and (max-width: 812px) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .textarea {
+    width: 100%;
+    @media screen and (max-width: 812px) {
+      text-align: center;
+    }
+
+    textarea {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      margin-bottom: 20px;
+      height: 160px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(17, 17, 17);
+      border-image: initial;
+      background: rgb(37, 37, 37);
+      padding: 12px 26px;
+      overflow: hidden;
+      border-radius: 30px;
+      transition: all 0.3s ease 0s;
+      outline: none;
+      resize: none;
+      box-sizing: border-box;
+
+    }
+
+    .btn {
+      font-weight: 500;
+      height: 46px;
+      line-height: 46px;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      position: relative;
+      font-family: Poppins, sans-serif;
+      letter-spacing: 0.5px;
+      box-shadow: none;
+      border-radius: 26px;
+      padding: 0 40px;
+      overflow: hidden;
+      border-width: 0;
+      border-style: initial;
+      border-color: initial;
+      border-image: initial;
+      outline: none;
+      cursor: pointer;
+      background-color: #ffb400;
+      text-decoration: none;
+    }
+  }
+
+}

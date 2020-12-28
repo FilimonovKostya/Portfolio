@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Preview.module.css'
+import style from "./Preview.module.scss"
 
 export const Preview = () => {
     return <section className={style.wrapper}>
