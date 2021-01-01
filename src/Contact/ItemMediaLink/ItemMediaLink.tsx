@@ -8,7 +8,7 @@ type ItemMediaLinkPropsType = {
     icon: IconDefinition
 }
 export const ItemMediaLink = (props: ItemMediaLinkPropsType) => {
-    return <div className={style.circle}><a href={props.link} target={'_blank'}>
+    return <div className={style.circle}><a href={props.link} rel="noreferrer">
         <FontAwesomeIcon className={style.fabIcons}
                          icon={props.icon}/>
     </a>
