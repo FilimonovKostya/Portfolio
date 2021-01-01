@@ -1,12 +1,11 @@
 import React from "react";
 import style from './Projects.module.scss'
-import background from '../assets/img/background.jpeg'
 import {Project} from "./Project/Project";
 
 export const Projects = () => {
 
     const backgroundImg = {
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
