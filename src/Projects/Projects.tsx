@@ -5,7 +5,7 @@ import {Project} from "./Project/Project";
 export const Projects = () => {
 
     const backgroundImg = {
-        backgroundImage: `url(${})`,
+        backgroundImage: `url()`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'

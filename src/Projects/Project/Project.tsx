@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./Project.module.scss";
-import background from "../../assets/img/background.jpeg";
 
 type ProjectPropsType = {
     backgroundImg: {}
