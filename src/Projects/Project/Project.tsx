@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Project.module.scss";
 
 type ProjectPropsType = {
-    backgroundImg: {}
     title: string
 }
 

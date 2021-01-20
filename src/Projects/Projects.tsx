@@ -14,10 +14,10 @@ export const Projects = () => {
     return <section className={style.wrapper}>
         <h2><span> My </span> projects </h2>
         <div className={style.container}>
-            <Project backgroundImg={backgroundImg} title={'TodoList'}/>
-            <Project backgroundImg={backgroundImg} title={'Social network'}/>
-            <Project backgroundImg={backgroundImg} title={'Counter'}/>
-            <Project backgroundImg={backgroundImg} title={'Quiz'}/>
+            <Project  title={'TodoList'}/>
+            <Project  title={'Social network'}/>
+            <Project  title={'Counter'}/>
+            <Project  title={'Quiz'}/>
         </div>
     </section>
 }
