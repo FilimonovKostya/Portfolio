@@ -1,7 +1,10 @@
 import React from "react";
 import style from "./Preview.module.scss"
 
+
 export const Preview = () => {
+
+
     return <section className={style.wrapper}>
         <div className={style.colorBlock}/>
         <div className={style.container}>

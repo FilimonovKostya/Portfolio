@@ -5,6 +5,7 @@ import {HireBlock} from "./Job/HireBlock";
 import {Projects} from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import {AboutMe} from "./AboutMe/AboutMe";
+import Particles from 'react-particles-js';
 
 function App() {
     return (
