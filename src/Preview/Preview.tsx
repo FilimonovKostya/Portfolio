@@ -18,7 +18,7 @@ export const Preview = () => {
                     <h1 className={style.heading}>I am <span className={style.surname}> Filimonov Konstantin</span></h1>
                     <p className={style.aboutMeFooterText}>Front-end developer who loves React and Information Technology
                     </p>
-                    <a href="#" className={style.btn}> More about me </a>
+                    <a href={"google.com"} className={style.btn}> More about me </a>
                 </LightSpeed>
             </div>
         </div>

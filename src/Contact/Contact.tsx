@@ -5,7 +5,7 @@ import {faGithub, faLinkedin, faTelegram, faVk} from "@fortawesome/free-brands-s
 import {ItemMediaLink} from "./ItemMediaLink/ItemMediaLink";
 import {ContactForm} from "./ContactForm/ContactForm";
 import {ContactsData} from "./ContactsData/ContactsData";
-import {Hinge, JackInTheBox, Roll} from "react-awesome-reveal";
+import {Roll} from "react-awesome-reveal";
 
 const Contact = () => {
     return <section className={style.contactBlock}>

@@ -4,12 +4,12 @@ import {Project} from "./Project/Project";
 import {Zoom} from "react-awesome-reveal";
 export const Projects = () => {
 
-    const backgroundImg = {
-        backgroundImage: `url()`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center'
-    }
+    // const backgroundImg = {
+    //     backgroundImage: `url()`,
+    //     backgroundSize: 'cover',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPosition: 'center'
+    // }
 
     return <section className={style.wrapper}>
         <h2><span> My </span> projects </h2>
