@@ -1,7 +1,6 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import style from "./Preview.module.scss"
-import {Flip} from "react-awesome-reveal";
-import LightSpeed from "react-awesome-reveal";
+import LightSpeed, {Flip} from "react-awesome-reveal";
 
 export const Preview = () => {
 
@@ -13,7 +12,7 @@ export const Preview = () => {
                 <div/>
             </Flip>
             <div className={style.aboutMe}>
-                <LightSpeed  >
+                <LightSpeed>
                     <p className={style.aboutMeText}>Hi there!</p>
                     <h1 className={style.heading}>I am <span className={style.surname}> Filimonov Konstantin</span></h1>
                     <p className={style.aboutMeFooterText}>Front-end developer who loves React and Information Technology
