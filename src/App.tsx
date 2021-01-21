@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useLayoutEffect, useState} from 'react';
 import './App.css';
 import {Preview} from "./Preview/Preview";
 import {HireBlock} from "./Job/HireBlock";
@@ -8,26 +8,32 @@ import {AboutMe} from "./AboutMe/AboutMe";
 
 function App() {
 
+    function useWindowSize() {
+        const [size, setSize] = useState([0, 0]);
+        useLayoutEffect(() => {
+            function updateSize() {
+                setSize([window.innerWidth, window.innerHeight]);
+            }
 
-    //  // const [hide, setHide] = useState(true)
-    //  const [size, setSize] = useState(window.innerWidth)
-    //
-    // useEffect(() => {
-    //     if(size < 1000) {
-    //         alert('Small')
-    //     }
-    // },[window.innerWidth])
+            window.addEventListener('resize', updateSize);
+            updateSize();
+            return () => window.removeEventListener('resize', updateSize);
+        }, []);
+        return size;
+    }
 
-    return (
-        <div className="App">
-            {/*{size < 1000 ? <h1>HELLO WORLD </h1> : null}*/}
-            <Preview/>
-            <AboutMe/>
-            <Projects/>
-            <HireBlock/>
-            <Contact/>
-        </div>
-    );
+
+    const [width, height] = useWindowSize();
+    return <div className="App">
+        <h1>{width} * {height}</h1>
+        <Preview/>
+        <AboutMe/>
+        <Projects/>
+        <HireBlock/>
+        <Contact/>
+    </div>
+
+
 }
 
 
