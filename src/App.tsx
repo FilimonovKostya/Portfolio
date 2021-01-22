@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Preview} from "./Preview/Preview";
 import {HireBlock} from "./Job/HireBlock";
@@ -7,28 +7,39 @@ import Contact from "./Contact/Contact";
 import {AboutMe} from "./AboutMe/AboutMe";
 
 function App() {
+
     function useWindowSize() {
-        const [size, setSize] = useState([0, 0]);
-        useLayoutEffect(() => {
-            function updateSize() {
-                setSize([window.innerWidth, window.innerHeight]);
+        const [windowSize, setWindowSize] = useState({width: 0});
+
+        useEffect(() => {
+            function handleResize() {
+                setWindowSize({
+                    width: window.innerWidth,
+                });
             }
 
-            window.addEventListener('resize', updateSize);
-            updateSize();
-            return () => window.removeEventListener('resize', updateSize);
-        }, []);
-        return size;
+            // Add event listener
+            window.addEventListener("resize", handleResize);
+
+            // Call handler right away so state gets updated with initial window size
+            handleResize();
+
+            // Remove event listener on cleanup
+            return () => window.removeEventListener("resize", handleResize);
+        }, []); // Empty array ensures that effect is only run on mount
+
+        return windowSize;
     }
 
-    const [width, height] = useWindowSize();
+    const size = useWindowSize();
+
 
     return <div className="App">
-        <Preview width={width}/>
-        <AboutMe width={width}/>
-        <Projects width={width}/>
+        <Preview width={size.width}/>
+        <AboutMe width={size.width}/>
+        <Projects width={size.width}/>
         <HireBlock/>
-        <Contact width={width}/>
+        <Contact width={size.width}/>
     </div>
 
 
