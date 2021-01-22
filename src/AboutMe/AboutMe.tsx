@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useLayoutEffect, useState} from "react";
 import style from './AboutMe.module.scss'
 import {Skill} from "./Skill/Skill";
 import ts from '../assets/img/tsLogo.svg'
@@ -16,8 +16,24 @@ import {Slide, Zoom} from "react-awesome-reveal";
 
 export const AboutMe = () => {
 
+    function useWindowSize() {
+        const [size, setSize] = useState([0, 0]);
+        useLayoutEffect(() => {
+            function updateSize() {
+                setSize([window.innerWidth, window.innerHeight]);
+            }
+
+            window.addEventListener('resize', updateSize);
+            updateSize();
+            return () => window.removeEventListener('resize', updateSize);
+        }, []);
+        return size;
+    }
+
+    const [width, height] = useWindowSize();
+
     return <section className={style.wrapper}>
-        <Particles className={'particles'} params={{
+        {width > 1000 ? <Particles className={'particles'} params={{
             autoPlay: true,
             background: {
                 color: {
@@ -381,32 +397,56 @@ export const AboutMe = () => {
             pauseOnBlur: true,
             pauseOnOutsideViewport: false,
             themes: []
-        }}/>
+        }}/> : null}
         <h2 className={style.title}> About <span> Me </span></h2>
         <div className={style.personalInfo}>
-            <Zoom>
-            <h3> Personal Information </h3>
-            <div className={style.information}>
-                <MainInformation/>
-                <SecondaryInformation/>
-            </div>
-            </Zoom>
+            {width > 1000
+                ? <Zoom>
+                    <h3> Personal Information </h3>
+                    <div className={style.information}>
+                        <MainInformation/>
+                        <SecondaryInformation/>
+                    </div>
+                </Zoom>
+                : <>
+                    <h3> Personal Information </h3>
+                    <div className={style.information}>
+                        <MainInformation/>
+                        <SecondaryInformation/>
+                    </div>
+                </>
+            }
         </div>
         <div className={style.container}>
             <h3>My skills </h3>
             <div className={style.skillsBlock}>
-                <Slide direction={'left'}>
-                    <Skill title={'TypeScript'} skillLogo={ts}/>
-                    <Skill title={'React'} skillLogo={react}/>
-                    <Skill title={'Redux'} skillLogo={redux}/>
-                </Slide>
-                <Slide direction={'right'}>
-                    <Skill title={'JavaScript'} skillLogo={js}/>
-                    <Skill title={'Html'} skillLogo={html}/>
-                    <Skill title={'Css'} skillLogo={css}/>
-                    <Skill title={'Git'} skillLogo={git}/>
-                    <Skill title={'Material UI'} skillLogo={mui}/>
-                </Slide>
+                {width > 1000
+                    ? <>
+                        <Slide direction={'left'}>
+                            <Skill title={'TypeScript'} skillLogo={ts}/>
+                            <Skill title={'React'} skillLogo={react}/>
+                            <Skill title={'Redux'} skillLogo={redux}/>
+                        </Slide>
+                        <Slide direction={'right'}>
+                            <Skill title={'JavaScript'} skillLogo={js}/>
+                            <Skill title={'Html'} skillLogo={html}/>
+                            <Skill title={'Css'} skillLogo={css}/>
+                            <Skill title={'Git'} skillLogo={git}/>
+                            <Skill title={'Material UI'} skillLogo={mui}/>
+                        </Slide>
+                    </>
+
+                    : <>
+                        <Skill title={'TypeScript'} skillLogo={ts}/>
+                        <Skill title={'React'} skillLogo={react}/>
+                        <Skill title={'Redux'} skillLogo={redux}/>
+                        <Skill title={'JavaScript'} skillLogo={js}/>
+                        <Skill title={'Html'} skillLogo={html}/>
+                        <Skill title={'Css'} skillLogo={css}/>
+                        <Skill title={'Git'} skillLogo={git}/>
+                        <Skill title={'Material UI'} skillLogo={mui}/>
+                    </>
+                }
             </div>
         </div>
     </section>
