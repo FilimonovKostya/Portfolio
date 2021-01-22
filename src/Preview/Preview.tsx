@@ -6,6 +6,8 @@ type PreviewPropsType = {
     width: number
 }
 export const Preview = (props: PreviewPropsType) => {
+
+
     return <section className={style.wrapper}>
         <div className={style.colorBlock}/>
         <div className={style.container}>
