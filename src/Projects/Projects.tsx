@@ -22,16 +22,32 @@ export const Projects = (props: ProjectsPropsType) => {
         <div className={style.container}>
             {props.width > 1000
                 ? <Zoom duration={1500}>
-                    <Project title={'TodoList'}/>
-                    <Project title={'Social network'}/>
-                    <Project title={'Counter'}/>
-                    <Project title={'Quiz'}/>
+                    <Project title={'TodoList'}
+                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router'}
+                             linkGithub={'https://github.com/FilimonovKostya/TodoList'}
+                    />
+                    <Project title={'Social network'}
+                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, Axios, Browser-Router, StoryBook, Unit Tests'}
+                             linkGithub={'https://github.com/FilimonovKostya/Social-network'}
+                    />
+                    <Project title={'Counter'}
+                             technology={'React, Redux, TypeScript, Local Storage '}
+                             linkGithub={'https://github.com/FilimonovKostya/Counter'}
+                    />
+                    <Project title={'Quiz'} technology={'React, Redux, TypeScript, API'} linkGithub={'https://github.com/FilimonovKostya/Quiz'}/>
                 </Zoom>
                 : <>
-                    <Project title={'TodoList'}/>
-                    <Project title={'Social network'}/>
-                    <Project title={'Counter'}/>
-                    <Project title={'Quiz'}/>
+                    <Project title={'TodoList'}
+                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router'}
+                             linkGithub={'https://github.com/FilimonovKostya/TodoList'}
+                    />
+                    <Project title={'Social network'}
+                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, Axios, Browser-Router, StoryBook, Unit Tests'}
+                             linkGithub={'https://github.com/FilimonovKostya/Social-network'}
+                    />
+                    <Project title={'Counter'} technology={'React, Redux, TypeScript, Local Storage '}
+                             linkGithub={'https://github.com/FilimonovKostya/Counter'}/>
+                    <Project title={'Quiz'} technology={'React, Redux, TypeScript, API'} linkGithub={'https://github.com/FilimonovKostya/Quiz'}/>
                 </>
             }
         </div>

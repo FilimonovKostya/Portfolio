@@ -3,6 +3,8 @@ import style from "./Project.module.scss";
 
 type ProjectPropsType = {
     title: string
+    technology: string
+    linkGithub:string
 }
 
 
@@ -18,8 +20,11 @@ export const Project = (props: ProjectPropsType) => {
             </div>
             <div className={`${style.face} ${style.face2}`}>
                 <div className={style.content}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                    <a href={"google.com"}>Read More</a>
+                    <p>{props.technology}</p>
+                    <div className={style.test}>
+                        <a href={"google.com"}>View</a>
+                        <a href={props.linkGithub} target={'blank'}>Code</a>
+                    </div>
                 </div>
             </div>
         </div>
