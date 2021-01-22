@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.46247bc6.chunk.css",
+    "main.css": "/Portfolio/static/css/main.786cd833.chunk.css",
     "main.js": "/Portfolio/static/js/main.185f4bd6.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.185f4bd6.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.7e922261.js",
@@ -10,22 +10,22 @@
     "static/js/3.ea0296dc.chunk.js": "/Portfolio/static/js/3.ea0296dc.chunk.js",
     "static/js/3.ea0296dc.chunk.js.map": "/Portfolio/static/js/3.ea0296dc.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.46247bc6.chunk.css.map": "/Portfolio/static/css/main.46247bc6.chunk.css.map",
+    "static/css/main.786cd833.chunk.css.map": "/Portfolio/static/css/main.786cd833.chunk.css.map",
     "static/js/2.4b4bd186.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4b4bd186.chunk.js.LICENSE.txt",
     "static/media/cssLogo.212d777a.svg": "/Portfolio/static/media/cssLogo.212d777a.svg",
-    "static/media/Preview.module.scss": "/Portfolio/static/media/testhoto.44fe6d1d.webp",
     "static/media/gitLogo.c60b7e5a.svg": "/Portfolio/static/media/gitLogo.c60b7e5a.svg",
     "static/media/htmlLogo.02c11ebc.svg": "/Portfolio/static/media/htmlLogo.02c11ebc.svg",
     "static/media/jsLogo.ba40d6a9.svg": "/Portfolio/static/media/jsLogo.ba40d6a9.svg",
     "static/media/muiLogo.fd510ed8.svg": "/Portfolio/static/media/muiLogo.fd510ed8.svg",
     "static/media/reactLogo.4704dc7c.svg": "/Portfolio/static/media/reactLogo.4704dc7c.svg",
     "static/media/redux-seeklogo.com.546485b8.svg": "/Portfolio/static/media/redux-seeklogo.com.546485b8.svg",
+    "static/media/Preview.module.scss": "/Portfolio/static/media/testhoto.44fe6d1d.webp",
     "static/media/tsLogo.a6305a73.svg": "/Portfolio/static/media/tsLogo.a6305a73.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7e922261.js",
     "static/js/2.4b4bd186.chunk.js",
-    "static/css/main.46247bc6.chunk.css",
+    "static/css/main.786cd833.chunk.css",
     "static/js/main.185f4bd6.chunk.js"
   ]
 }
