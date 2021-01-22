@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useState} from "react";
+import React from "react";
 import style from './AboutMe.module.scss'
 import {Skill} from "./Skill/Skill";
 import ts from '../assets/img/tsLogo.svg'
@@ -14,26 +14,14 @@ import {SecondaryInformation} from "./Information/SecondaryInformation";
 import Particles from "react-particles-js";
 import {Slide, Zoom} from "react-awesome-reveal";
 
-export const AboutMe = () => {
+type AboutMePropsType = {
+    width: number
+}
 
-    function useWindowSize() {
-        const [size, setSize] = useState([0, 0]);
-        useLayoutEffect(() => {
-            function updateSize() {
-                setSize([window.innerWidth, window.innerHeight]);
-            }
-
-            window.addEventListener('resize', updateSize);
-            updateSize();
-            return () => window.removeEventListener('resize', updateSize);
-        }, []);
-        return size;
-    }
-
-    const [width, height] = useWindowSize();
+export const AboutMe = (props: AboutMePropsType) => {
 
     return <section className={style.wrapper}>
-        {width > 1000 ? <Particles className={'particles'} params={{
+        {props.width > 1000 ? <Particles className={'particles'} params={{
             autoPlay: true,
             background: {
                 color: {
@@ -400,7 +388,7 @@ export const AboutMe = () => {
         }}/> : null}
         <h2 className={style.title}> About <span> Me </span></h2>
         <div className={style.personalInfo}>
-            {width > 1000
+            {props.width > 1000
                 ? <Zoom>
                     <h3> Personal Information </h3>
                     <div className={style.information}>
@@ -420,7 +408,7 @@ export const AboutMe = () => {
         <div className={style.container}>
             <h3>My skills </h3>
             <div className={style.skillsBlock}>
-                {width > 1000
+                {props.width > 1000
                     ? <>
                         <Slide direction={'left'}>
                             <Skill title={'TypeScript'} skillLogo={ts}/>

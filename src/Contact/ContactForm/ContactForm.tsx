@@ -1,26 +1,15 @@
 import style from "./ContactForm.module.scss";
-import React, {useLayoutEffect, useState} from "react";
+import React from "react";
 import {Roll} from "react-awesome-reveal";
 
-export const ContactForm = () => {
+type ContactFormPropsType = {
+    width: number
+}
 
-    function useWindowSize() {
-        const [size, setSize] = useState([0, 0]);
-        useLayoutEffect(() => {
-            function updateSize() {
-                setSize([window.innerWidth, window.innerHeight]);
-            }
+export const ContactForm = (props: ContactFormPropsType) => {
 
-            window.addEventListener('resize', updateSize);
-            updateSize();
-            return () => window.removeEventListener('resize', updateSize);
-        }, []);
-        return size;
-    }
 
-    const [width, height] = useWindowSize();
-
-    return width > 1000
+    return props.width > 1000
         ? <Roll duration={1300}>
             <div className={style.contactsData}>
                 <div className={style.nameEmailSubject}>

@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useState} from 'react';
+import React from 'react';
 import style from './Contact.module.scss'
 import {faEnvelopeSquare, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faLinkedin, faTelegram, faVk} from "@fortawesome/free-brands-svg-icons";
@@ -7,29 +7,16 @@ import {ContactForm} from "./ContactForm/ContactForm";
 import {ContactsData} from "./ContactsData/ContactsData";
 import {Roll} from "react-awesome-reveal";
 
-const Contact = () => {
+type ContactPropsType = {
+    width: number
+}
 
-    function useWindowSize() {
-        const [size, setSize] = useState([0, 0]);
-        useLayoutEffect(() => {
-            function updateSize() {
-                setSize([window.innerWidth, window.innerHeight]);
-            }
-
-            window.addEventListener('resize', updateSize);
-            updateSize();
-            return () => window.removeEventListener('resize', updateSize);
-        }, []);
-        return size;
-    }
-
-    const [width, height] = useWindowSize();
-
+const Contact = (props: ContactPropsType) => {
     return <section className={style.contactBlock}>
         <h2>Get in <span>Touch</span></h2>
         <div className={style.contactInfo}>
             <div className={style.socialMedia}>
-                {width > 1000
+                {props.width > 1000
                     ? <Roll duration={1300}>
                         <h4>Don't be shy ʕ ᵔᴥᵔ ʔ</h4>
                         <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your
@@ -61,7 +48,7 @@ const Contact = () => {
                 }
             </div>
 
-            <ContactForm/>
+            <ContactForm width={props.width}/>
         </div>
     </section>
 }
