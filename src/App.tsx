@@ -36,7 +36,7 @@ function App() {
 
 
     return <div className="App">
-        <BurgerMenu/>
+        {/*<BurgerMenu/>*/}
         <Preview width={size.width}/>
         <AboutMe width={size.width}/>
         <Projects width={size.width}/>

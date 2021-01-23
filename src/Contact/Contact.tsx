@@ -12,7 +12,7 @@ type ContactPropsType = {
 }
 
 const Contact = (props: ContactPropsType) => {
-    return <section className={style.contactBlock}>
+    return <section className={style.contactBlock} id={'contact'}>
         <h2>Get in <span>Touch</span></h2>
         <div className={style.contactInfo}>
             <div className={style.socialMedia}>

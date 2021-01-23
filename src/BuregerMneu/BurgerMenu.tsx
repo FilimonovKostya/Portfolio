@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './BuregerMenu.module.scss'
-
+import {Link} from "react-scroll/modules";
 
 const BurgerMenu = () => {
     return <div>
@@ -23,16 +23,18 @@ const BurgerMenu = () => {
             <nav className={style.navigationNav}>
                 <ul className={style.navigationList}>
                     <li className={style.navigationItem}>
-                        <a href="#" className={style.navigationLink}>Main</a>
+                        <Link  to="preview"  className={style.navigationLink}><span  className={style.navigationLink}> Main</span></Link>
+
                     </li>
                     <li className={style.navigationItem}>
-                        <a href="#" className={style.navigationLink}>About me</a>
+                        <a href="AboutMe" className={style.navigationLink}>About me</a>
                     </li>
                     <li className={style.navigationItem}>
                         <a href="#" className={style.navigationLink}>Projects</a>
                     </li>
                     <li className={style.navigationItem}>
-                        <a href="#" className={style.navigationLink}>Contact with me</a>
+                        {/*<a href="#" className={style.navigationLink}>Contact with me</a>*/}
+                        <Link to="contact" className={style.navigationLink}>Contact with me</Link>
                     </li>
 
                 </ul>
