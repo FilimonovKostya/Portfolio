@@ -5,6 +5,7 @@ import {HireBlock} from "./Job/HireBlock";
 import {Projects} from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import {AboutMe} from "./AboutMe/AboutMe";
+import BurgerMenu from "./BuregerMneu/BurgerMenu";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
 
 
     return <div className="App">
+        <BurgerMenu/>
         <Preview width={size.width}/>
         <AboutMe width={size.width}/>
         <Projects width={size.width}/>

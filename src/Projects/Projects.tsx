@@ -23,11 +23,11 @@ export const Projects = (props: ProjectsPropsType) => {
             {props.width > 1000
                 ? <Zoom duration={1500}>
                     <Project title={'TodoList'}
-                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router'}
+                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}
                              linkGithub={'https://github.com/FilimonovKostya/TodoList'}
                     />
                     <Project title={'Social network'}
-                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, Axios, Browser-Router, StoryBook, Unit Tests'}
+                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={'https://github.com/FilimonovKostya/Social-network'}
                     />
                     <Project title={'Counter'}
@@ -38,11 +38,11 @@ export const Projects = (props: ProjectsPropsType) => {
                 </Zoom>
                 : <>
                     <Project title={'TodoList'}
-                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router'}
+                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}
                              linkGithub={'https://github.com/FilimonovKostya/TodoList'}
                     />
                     <Project title={'Social network'}
-                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, Axios, Browser-Router, StoryBook, Unit Tests'}
+                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={'https://github.com/FilimonovKostya/Social-network'}
                     />
                     <Project title={'Counter'} technology={'React, Redux, TypeScript, Local Storage '}
