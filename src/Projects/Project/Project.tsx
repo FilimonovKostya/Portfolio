@@ -5,7 +5,10 @@ type ProjectPropsType = {
     title: string
     technology: string
     linkGithub:string
+    linkDemo:string
+    img:string
 }
+
 
 
 export const Project = (props: ProjectPropsType) => {
@@ -13,7 +16,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={style.card}>
             <div className={`${style.face} ${style.face1}`}>
                 <div className={style.content}>
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"
+                    <img src={props.img}
                          alt={props.title}/>
                     <h3>{props.title}</h3>
                 </div>
@@ -22,7 +25,7 @@ export const Project = (props: ProjectPropsType) => {
                 <div className={style.content}>
                     <p>{props.technology}</p>
                     <div className={style.test}>
-                        <a href={"google.com"}>View</a>
+                        <a href={props.linkDemo} target={'blank'}>View</a>
                         <a href={props.linkGithub} target={'blank'}>Code</a>
                     </div>
                 </div>
