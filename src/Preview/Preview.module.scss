@@ -35,7 +35,7 @@
     }
 
     .avatar {
-      background-image: url('../../src/assets/img/testhoto.webp');
+      background-image: url('../../src/assets/img/finalPhoto.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -48,7 +48,7 @@
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
       @media screen and (max-width: 992px) {
-        background-image: url('../../src/assets/img/testhoto.webp');
+        background-image: url('../../src/assets/img/finalPhoto.jpg');
         border-radius: 50%;
         width: 270px;
         height: 270px;
