@@ -24,7 +24,7 @@ export const Projects = (props: ProjectsPropsType) => {
                              technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={'https://github.com/FilimonovKostya/Social-network'}
                              linkDemo={''}
-                             img={'https://lh3.googleusercontent.com/proxy/Rb8cweJ6-_MZ-qsGxMGOt7dwqzyDSi79XJOIkgOnmNce8sxT1GrNti4FT0-EF4jsgNC2bNk2-N-QcnSPROot71OQsR1y1SMYhhn7Id-7AHqWzTInVDKcxlNKtoi_s-NpgI8_qou7a0Noyyg'}
+                             img={'https://img.pngio.com/hq-social-media-png-transparent-social-mediapng-images-pluspng-social-network-graphics-png-3000_3000.png'}
                     />
                     <Project title={'Counter'}
                              technology={'React, Redux, TypeScript, Local Storage '}
