@@ -23,14 +23,13 @@ export const Preview = (props: PreviewPropsType) => {
                             <h1 className={style.heading}>I am <span className={style.surname}> Filimonov Konstantin</span></h1>
                             <ReactTypingEffect text={['Front-end developer who loves React and Information Technology']} eraseSpeed={0} typingDelay={1000}
                                                className={style.aboutMeFooterText}/>
-                            <a href={"google.com"} className={style.btn}> More about me </a>
                         </LightSpeed>
 
                         : <> <p className={style.aboutMeText}>Hi there!</p>
                             <h1 className={style.heading}>I am <span className={style.surname}> Filimonov Konstantin</span></h1>
                             <p className={style.aboutMeFooterText}>Front-end developer who loves React and Information Technology
                             </p>
-                            <a href={"google.com"} className={style.btn}> More about me </a></>}
+                        </>}
             </div>
         </div>
     </section>
