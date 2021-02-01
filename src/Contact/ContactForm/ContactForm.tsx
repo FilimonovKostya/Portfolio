@@ -23,12 +23,12 @@ export const ContactForm = (props: ContactFormPropsType) => {
             phone: phone,
             message: message,
 
-        },'user_U70qJk2kdzUZ1Ob7vOBtZ')
+        }, 'user_U70qJk2kdzUZ1Ob7vOBtZ')
             .then(res => {
-                console.log('Отправил данные')
+                alert('Was sent')
             })
             .catch(() => {
-                console.log('huiat')
+                alert('Some Error')
             })
         ;
     }
@@ -56,9 +56,9 @@ export const ContactForm = (props: ContactFormPropsType) => {
         : <div className={style.contactsData}>
             <form onSubmit={sendEmail}>
                 <div className={style.nameEmailSubject}>
-                    <input type="text" name={'name'} placeholder={'Your name'} value={name} onChange={event => setName(event.currentTarget.value)}/>
-                    <input type="email" name={'email'} placeholder={'Your email'} value={email} onChange={event => setEmail(event.currentTarget.value)}/>
-                    <input type="text" name={'phone'} placeholder={'Phone Number'} value={phone}
+                    <input type="text" name={'name'} placeholder={'Name'} value={name} onChange={event => setName(event.currentTarget.value)}/>
+                    <input type="email" name={'email'} placeholder={'Email'} value={email} onChange={event => setEmail(event.currentTarget.value)}/>
+                    <input type="text" name={'phone'} placeholder={'Phone number'} value={phone}
                            onChange={event => setPhone(event.currentTarget.value)}/>
                 </div>
                 <div className={style.textarea}>

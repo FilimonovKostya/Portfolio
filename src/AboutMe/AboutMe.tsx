@@ -9,6 +9,7 @@ import html from '../assets/img/htmlLogo.svg'
 import css from '../assets/img/cssLogo.svg'
 import git from '../assets/img/gitLogo.svg'
 import mui from '../assets/img/muiLogo.svg'
+import bootstrap from '../assets/img/bootstrapLogo.svg'
 import {MainInformation} from "./Information/MainInformation";
 import {SecondaryInformation} from "./Information/SecondaryInformation";
 import Particles from "react-particles-js";
@@ -414,6 +415,7 @@ export const AboutMe = (props: AboutMePropsType) => {
                             <Skill title={'TypeScript'} skillLogo={ts}/>
                             <Skill title={'React'} skillLogo={react}/>
                             <Skill title={'Redux'} skillLogo={redux}/>
+                            <Skill title={'Bootstrap 4'} skillLogo={bootstrap}/>
                         </Slide>
                         <Slide direction={'right'}>
                             <Skill title={'JavaScript'} skillLogo={js}/>
@@ -433,6 +435,7 @@ export const AboutMe = (props: AboutMePropsType) => {
                         <Skill title={'Css'} skillLogo={css}/>
                         <Skill title={'Git'} skillLogo={git}/>
                         <Skill title={'Material UI'} skillLogo={mui}/>
+                        <Skill title={'Bootstrap 4'} skillLogo={bootstrap}/>
                     </>
                 }
             </div>

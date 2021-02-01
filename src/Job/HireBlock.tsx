@@ -5,7 +5,7 @@ export const HireBlock = () => {
   return <section className={style.wrapper}>
       <div className={style.hireBLock}>
         <h4>Download CV</h4>
-        <button className={style.button}>Click</button>
+    <a href={'https://drive.google.com/file/d/1x-lkwMHmt375FT4lSoAdqmjQADJb9KP0/view?usp=sharing'} target={'blank'} className={style.button} download> Click </a>
       </div>
     </section>
   
