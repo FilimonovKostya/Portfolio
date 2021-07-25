@@ -2,6 +2,7 @@ import React from "react";
 import style from './Projects.module.scss'
 import {Project} from "./Project/Project";
 import {Zoom} from "react-awesome-reveal";
+import notebook from '../assets/img/pnghut_notebook-paper-clip-art-logo.png'
 
 type ProjectsPropsType = {
     width: number
@@ -39,10 +40,17 @@ export const Projects = (props: ProjectsPropsType) => {
                              img={'https://cdn0.iconfinder.com/data/icons/online-education-butterscotch-vol-2/512/Questions_And_Answers-512.png'}
 
                     />
-                    <Project title={'Movies'} technology={'React, Redux, TypeScript, Axios, Rest API, React Hooks, Redux-Thunk'}
+                    <Project title={'Movies'}
+                             technology={'React, Redux, TypeScript, Axios, Rest API, React Hooks, Redux-Thunk'}
                              linkGithub={'https://github.com/FilimonovKostya/Movies'}
                              linkDemo={'https://filimonovkostya.github.io/Movies/'}
                              img={'https://cdn0.iconfinder.com/data/icons/colored-vector-icons-10/128/485-512.png'}
+
+                    />
+                    <Project title={'Notebook'} technology={'React, TypeScript, React Hooks, Local storage'}
+                             linkGithub={'https://github.com/FilimonovKostya/notebook'}
+                             linkDemo={'https://filimonovkostya.github.io/notebook/'}
+                             img={notebook}
 
                     />
                 </Zoom>
@@ -72,10 +80,17 @@ export const Projects = (props: ProjectsPropsType) => {
                              img={'https://cdn0.iconfinder.com/data/icons/online-education-butterscotch-vol-2/512/Questions_And_Answers-512.png'}
 
                     />
-                    <Project title={'Movies'} technology={'React, Redux, TypeScript, Axios, Rest API, React Hooks, Redux-Thunk'}
+                    <Project title={'Movies'}
+                             technology={'React, Redux, TypeScript, Axios, Rest API, React Hooks, Redux-Thunk'}
                              linkGithub={'https://github.com/FilimonovKostya/Movies'}
                              linkDemo={'https://filimonovkostya.github.io/Movies/'}
                              img={'https://cdn0.iconfinder.com/data/icons/colored-vector-icons-10/128/485-512.png'}
+
+                    />
+                    <Project title={'Notebook'} technology={'React, TypeScript, React Hooks, Local storage'}
+                             linkGithub={'https://github.com/FilimonovKostya/notebook'}
+                             linkDemo={'https://filimonovkostya.github.io/notebook/'}
+                             img={notebook}
 
                     />
                 </>
