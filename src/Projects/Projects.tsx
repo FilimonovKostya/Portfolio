@@ -3,6 +3,7 @@ import style from './Projects.module.scss'
 import {Project} from "./Project/Project";
 import {Zoom} from "react-awesome-reveal";
 import notebook from '../assets/img/notebook.png'
+import weather from '../assets/img/weather.png'
 
 type ProjectsPropsType = {
     width: number
@@ -16,7 +17,7 @@ export const Projects = (props: ProjectsPropsType) => {
             {props.width > 1000
                 ? <Zoom duration={1500}>
                     <Project title={'TodoList'}
-                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}
+                             technology={'React, Redux, Redux-Toolkit, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}
                              linkGithub={'https://github.com/FilimonovKostya/TodoList'}
                              linkDemo={'https://filimonovkostya.github.io/TodoList/'}
                              img={'https://cdn.iconscout.com/icon/premium/png-512-thumb/todo-list-1725496-1465657.png'}
@@ -24,7 +25,7 @@ export const Projects = (props: ProjectsPropsType) => {
                     <Project title={'Social network'}
                              technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={'https://github.com/FilimonovKostya/Social-network'}
-                             linkDemo={''}
+                             linkDemo={'https://filimonovkostya.github.io/Social-network/#/'}
                              img={'https://img.pngio.com/hq-social-media-png-transparent-social-mediapng-images-pluspng-social-network-graphics-png-3000_3000.png'}
                     />
                     <Project title={'Counter'}
@@ -53,6 +54,12 @@ export const Projects = (props: ProjectsPropsType) => {
                              img={notebook}
 
                     />
+                    <Project title={'Weather'} technology={'React, React Hooks, TypeScript, Redux-Toolkit, Axios, Scss'}
+                             linkGithub={'https://github.com/FilimonovKostya/notebook'}
+                             linkDemo={'https://filimonovkostya.github.io/Weather/'}
+                             img={weather}
+
+                    />
                 </Zoom>
                 : <>
                     <Project title={'TodoList'}
@@ -64,7 +71,7 @@ export const Projects = (props: ProjectsPropsType) => {
                     <Project title={'Social network'}
                              technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={'https://github.com/FilimonovKostya/Social-network'}
-                             linkDemo={''}
+                             linkDemo={'https://filimonovkostya.github.io/Social-network/#/'}
                              img={'https://lh3.googleusercontent.com/proxy/Rb8cweJ6-_MZ-qsGxMGOt7dwqzyDSi79XJOIkgOnmNce8sxT1GrNti4FT0-EF4jsgNC2bNk2-N-QcnSPROot71OQsR1y1SMYhhn7Id-7AHqWzTInVDKcxlNKtoi_s-NpgI8_qou7a0Noyyg'}
 
                     />
@@ -91,6 +98,12 @@ export const Projects = (props: ProjectsPropsType) => {
                              linkGithub={'https://github.com/FilimonovKostya/notebook'}
                              linkDemo={'https://filimonovkostya.github.io/notebook/'}
                              img={notebook}
+
+                    />
+                    <Project title={'Weather'} technology={'React, React Hooks, TypeScript, Redux-Toolkit, Axios, Scss'}
+                             linkGithub={'https://github.com/FilimonovKostya/notebook'}
+                             linkDemo={'https://filimonovkostya.github.io/Weather/'}
+                             img={weather}
 
                     />
                 </>
