@@ -2,7 +2,7 @@ import React from "react";
 import style from './Projects.module.scss'
 import {Project} from "./Project/Project";
 import {Zoom} from "react-awesome-reveal";
-// import notebook from '../assets/img/pnghut_notebook-paper-clip-art-logo.png'
+import notebook from '../assets/img/notebook.png'
 
 type ProjectsPropsType = {
     width: number
@@ -50,7 +50,7 @@ export const Projects = (props: ProjectsPropsType) => {
                     <Project title={'Notebook'} technology={'React, TypeScript, React Hooks, Local storage'}
                              linkGithub={'https://github.com/FilimonovKostya/notebook'}
                              linkDemo={'https://filimonovkostya.github.io/notebook/'}
-                             img={''}
+                             img={notebook}
 
                     />
                 </Zoom>
@@ -90,7 +90,7 @@ export const Projects = (props: ProjectsPropsType) => {
                     <Project title={'Notebook'} technology={'React, TypeScript, React Hooks, Local storage'}
                              linkGithub={'https://github.com/FilimonovKostya/notebook'}
                              linkDemo={'https://filimonovkostya.github.io/notebook/'}
-                             img={''}
+                             img={notebook}
 
                     />
                 </>
